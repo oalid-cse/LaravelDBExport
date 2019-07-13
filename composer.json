@@ -1,0 +1,14 @@
+{
+    "name": "oalid-cse/laravel-db-export",
+    "description": "Database Export in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abu Bin Oalid",
+            "email": "oalid.mmj@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
