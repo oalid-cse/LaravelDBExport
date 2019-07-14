@@ -10,5 +10,20 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OalidCse\\LaravelDBExport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OalidCse\\LaravelDBExport\\DBExportServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    }
 }
