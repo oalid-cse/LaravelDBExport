@@ -1,6 +1,6 @@
 # LaravelDBExport
 
-A simple database export package for laravel.
+A simple mysql database export package for laravel.
 
   - You can export your database easily in laravel by using this package
   - For Security perpose you can set whitlist ip addresses to set limited access
