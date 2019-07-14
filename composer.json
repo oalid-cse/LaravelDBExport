@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "OalidCse\\LaravelDBExport\\": "src/"
+            "OalidCse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OalidCse\\LaravelDBExport\\DBExportServiceProvider"
+                "OalidCse\\DBExport\\DBExportServiceProvider"
             ],
             "aliases": {
                 
