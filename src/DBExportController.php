@@ -22,7 +22,7 @@ class DBExportController extends Controller
             }
         }
 
-        $content = $this->Export_Database_Content($tables);
+        $content = self::Export_Database_Content($tables);
 
         $file = fopen(__DIR__."/db_data/database.sql","w");
         fwrite($file,$content);
@@ -39,7 +39,7 @@ class DBExportController extends Controller
         return Response::make($content, 200, $headers);*/
     }
 
-    private function Export_Database_Content($tables=null)
+    private static function Export_Database_Content($tables=null)
     {
         $name = env('DB_DATABASE');
         ini_set ( 'max_execution_time', 1200);
