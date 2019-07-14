@@ -11,15 +11,11 @@ class DBExportServiceProvider extends ServiceProvider
     {
         // register controller
         $this->app->make('OalidCse\DBExport\DBExportController');
-
-        // register views
-        $this->loadViewsFrom(__DIR__."/views", 'db_export');
     }
 
 
     public function boot()
     {
-        // register routes
-        $this->loadRoutesFrom(__DIR__."/routes.php");
+        
     }
 }

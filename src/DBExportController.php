@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Schema;
 
 class DBExportController extends Controller
 {
-    public function export_database($tables=null)
+    public static function export_database($tables=null)
     {
         $valid_ips = env("DB_EXPORT_VALID_IPS");
         if (!empty($valid_ips)) {

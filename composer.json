@@ -22,7 +22,7 @@
                 "OalidCse\\DBExport\\DBExportServiceProvider"
             ],
             "aliases": {
-                
+                "DBExport" : "OalidCse\\DBExport\\DBExportController"
             }
         }
     }
